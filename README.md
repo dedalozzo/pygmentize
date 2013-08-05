@@ -1,1 +1,1 @@
-Pygments is a wrapper to 'pygmentize', the command line interface provided by Pygments, a Python syntax highlighter.
+Pygmentize is a wrapper to 'pygmentize', the command line interface provided by Pygments, a Python syntax highlighter.
