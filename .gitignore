@@ -1,5 +1,5 @@
+.DS_Store
 .idea
 composer.lock
 /vendor
 /doc
-sfa
