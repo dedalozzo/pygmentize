@@ -38,7 +38,11 @@ class Pygmentize {
         2 => array('pipe', 'w'), // stderr
       );
 
-      $args = sprintf(" -l %s -f %s -O encoding=%s,style=%s,lineos=1", $language, $formatter, $encoding, $style);
+      if (!empty($language))
+        $args = sprintf(" -f %s -l %s -O encoding=%s,style=%s,lineos=1", $formatter, $language, $encoding, $style);
+      else
+        $args = sprintf(" -l %s -g -O encoding=%s,style=%s,lineos=1", $formatter, $encoding, $style);
+
       $proc = proc_open(self::PIGMENTS_BINARY.$args, $dspec, $pipes);
 
       if (is_resource($proc)) {
