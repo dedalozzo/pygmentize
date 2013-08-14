@@ -23,7 +23,7 @@ class Pygmentize {
   //! @param[in] string $language The programming language name of the source code.
   //! @param[in] string $encoding The file input and output encodings.
   //! @param[in] string $formatter The output will be created using the provided formatter.
-  //! @param[in] string $style Rhe style used by the formatter.
+  //! @param[in] string $style The style used by the formatter.
   //! @return string The highlighted source code.
   public static function highlight($source, $language, $encoding = "utf-8", $formatter = "html", $style = "borland") {
 
