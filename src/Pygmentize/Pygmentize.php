@@ -1,30 +1,38 @@
 <?php
 
-//! @file Pygmentize.php
-//! @brief This file contains the Pygmentize class.
-//! @details
-//! @author Filippo F. Fadda
+/**
+ * @file Pygmentize.php
+ * @brief This file contains the Pygmentize class.
+ * @details
+ * @author Filippo F. Fadda
+ */
 
 
-//! @brief Global namespace for the Pygmentize class.
+/*
+ * @brief Global namespace for the Pygmentize class.
+ */
 namespace Pygmentize;
 
 
-//! @brief Pygments is a wrapper to 'pygmentize', the command line interface provided by Pygments, a python syntax
-//! highlighter.
+/**
+ * @brief Pygments is a wrapper to 'pygmentize', the command line interface provided by Pygments, a python syntax
+ * highlighter.
+ */
 class Pygmentize {
 
   // Binary name.
   const PIGMENTS_BINARY = "pygmentize";
 
 
-  //! @brief Formats the provided source code using the specified formatter and style.
-  //! @param[in] string $source The source code.
-  //! @param[in] string $language The programming language name of the source code.
-  //! @param[in] string $encoding The file input and output encodings.
-  //! @param[in] string $formatter The output will be created using the provided formatter.
-  //! @param[in] string $style The style used by the formatter.
-  //! @return string The highlighted source code.
+  /**
+   * @brief Formats the provided source code using the specified formatter and style.
+   * @param[in] string $source The source code.
+   * @param[in] string $language The programming language name of the source code.
+   * @param[in] string $encoding The file input and output encodings.
+   * @param[in] string $formatter The output will be created using the provided formatter.
+   * @param[in] string $style The style used by the formatter.
+   * @return string The highlighted source code.
+   */
   public static function highlight($source, $language, $encoding = "utf-8", $formatter = "html", $style = "borland") {
 
     // Try to create a temporary physical file. The function 'proc_open' doesn't allow to use a memory file.
