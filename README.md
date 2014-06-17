@@ -50,7 +50,7 @@ Pygmentize::highlight($code, $language);
 Methods
 -------
 
-### Pygmentize::highlight
+### Pygmentize::highlight()
 
 ```php
 public static function highlight(
