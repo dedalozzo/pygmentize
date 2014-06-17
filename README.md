@@ -53,7 +53,13 @@ Methods
 ### Pygmentize::highlight
 
 ```php
-public static function highlight($source, $language, $encoding = "utf-8", $formatter = "html", $style = "borland")
+public static function highlight(
+    $source,
+    $language,
+    $encoding = "utf-8",
+    $formatter = "html",
+    $style = "borland"
+)
 ```
 
 Formats the provided source code using the specified formatter and style.
