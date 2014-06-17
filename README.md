@@ -1,7 +1,7 @@
 Pygmentize
 ==========
 Pygmentize is a wrapper to `pygmentize`, the command line interface provided by [Pygments](http://pygments.org), a
-Python syntax highlighter.
+Python syntax highlighter. Pygmentize is smart enough to raise an exception in case Pygments returns an error.
 
 
 Composer Installation
@@ -83,6 +83,16 @@ Formats the provided source code using the specified formatter and style.
 **Return Value:**
 
 Returns the highlighted source code.
+
+**Exceptions**
+
+* RuntimeException
+
+  Cannot execute the `pygmentize` command.
+
+* RuntimeException
+
+  Cannot create the temporary file with the source code.
 
 
 Documentation
