@@ -49,7 +49,7 @@ class Pygmentize {
       if (!empty($language))
         $args = sprintf(" -f %s -l %s -O encoding=%s,style=%s,lineos=1", $formatter, $language, $encoding, $style);
       else
-        $args = sprintf(" -l %s -g -O encoding=%s,style=%s,lineos=1", $formatter, $encoding, $style);
+        $args = sprintf(" -f %s -g -O encoding=%s,style=%s,lineos=1", $formatter, $encoding, $style);
 
       $proc = proc_open(self::PIGMENTS_BINARY.$args, $dspec, $pipes);
 
