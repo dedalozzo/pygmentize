@@ -58,7 +58,7 @@ public static function highlight($source, $language, $encoding = "utf-8", $forma
 
 Formats the provided source code using the specified formatter and style.
 
-**Parameters:**
+**Parameters**
 
 * source
 
@@ -80,7 +80,7 @@ Formats the provided source code using the specified formatter and style.
 
   The style used by the formatter.
 
-**Return Value:**
+**Returns**
 
 Returns the highlighted source code.
 
