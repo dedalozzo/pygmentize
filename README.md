@@ -102,8 +102,8 @@ The documentation can be generated using [Doxygen](http://doxygen.org). A `Doxyf
 
 Requirements
 ------------
-PHP 5.4.0 or above.
-[Pygments](http://pygments.org) 1.6 or above.
+- PHP 5.4.0 or above.
+- [Pygments](http://pygments.org) 1.6 or above.
 
 
 Authors
