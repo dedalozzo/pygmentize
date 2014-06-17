@@ -45,7 +45,6 @@ Pygmentize is really easy to use, having only one static method. You just call `
 
 ```php
 Pygmentize::highlight($code, $language);
-
 ```
 
 Methods
@@ -66,15 +65,19 @@ Formats the provided source code using the specified formatter and style.
   The source code.
 
 * language
+
   The programming language name of the source code.
 
 * encoding
+
   The file input and output encodings.
 
 * formatter
+
   The output will be created using the provided formatter.
 
 * style
+
   The style used by the formatter.
 
 **Return Value:**
