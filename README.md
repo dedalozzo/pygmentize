@@ -41,7 +41,7 @@ composer update
 
 Usage
 -----
-Pygmentize is really easy to use, having only one static method. You just call `highlight` like follows:
+Pygmentize is really easy to use, having only one static method. You just call `highlight()` like follows:
 
 ```php
 Pygmentize::highlight($code, $language);
