@@ -78,7 +78,7 @@ class Pygmentize {
         return $output;
       }
       else
-        throw new \RuntimeException("Cannot execute the 'pygmentize' command.");
+        throw new \RuntimeException("Cannot execute the `pygmentize` command.");
     }
     else
       throw new \RuntimeException("Cannot create the temporary file with the source code.");
