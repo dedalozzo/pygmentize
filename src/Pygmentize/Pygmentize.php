@@ -47,7 +47,7 @@ class Pygmentize {
       );
 
       if (!empty($language))
-        $args = sprintf(" -f %s -l %s -O encoding=%s,style=%s,lineos=1", $formatter, $language, $encoding, $style);
+        $args = sprintf(" -f %s -l %s -O encoding=%s,style=%s,lineos=1,startinline=true", $formatter, $language, $encoding, $style);
       else
         $args = sprintf(" -f %s -g -O encoding=%s,style=%s,lineos=1", $formatter, $encoding, $style);
 
