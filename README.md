@@ -1,3 +1,9 @@
+[![Latest Stable Version](https://poser.pugx.org/3f/pygmentize/v/stable.png)](https://packagist.org/packages/3f/pygmentize)
+[![Latest Unstable Version](https://poser.pugx.org/3f/pygmentize/v/unstable.png)](https://packagist.org/packages/3f/pygmentize)
+[![License](https://poser.pugx.org/3f/pygmentize/license.svg)](https://packagist.org/packages/3f/pygmentize)
+[![Total Downloads](https://poser.pugx.org/3f/pygmentize/downloads.png)](https://packagist.org/packages/3f/pygmentize)
+
+
 Pygmentize
 ==========
 Pygmentize is a wrapper to `pygmentize`, the command line interface provided by [Pygments](http://pygments.org), a
