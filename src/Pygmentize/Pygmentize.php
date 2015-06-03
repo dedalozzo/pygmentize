@@ -8,9 +8,8 @@
  */
 
 
-/*
- * @brief Global namespace for the Pygmentize class.
- */
+
+//! Global namespace for the Pygmentize class.
 namespace Pygmentize;
 
 
