@@ -1,5 +1,7 @@
 [![Latest Stable Version](https://poser.pugx.org/3f/pygmentize/v/stable.png)](https://packagist.org/packages/3f/pygmentize)
 [![Latest Unstable Version](https://poser.pugx.org/3f/pygmentize/v/unstable.png)](https://packagist.org/packages/3f/pygmentize)
+[![Build Status](https://scrutinizer-ci.com/g/dedalozzo/pygmentize/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dedalozzo/pygmentize/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dedalozzo/pygmentize/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dedalozzo/pygmentize/?branch=master)
 [![License](https://poser.pugx.org/3f/pygmentize/license.svg)](https://packagist.org/packages/3f/pygmentize)
 [![Total Downloads](https://poser.pugx.org/3f/pygmentize/downloads.png)](https://packagist.org/packages/3f/pygmentize)
 
