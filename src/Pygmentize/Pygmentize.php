@@ -50,7 +50,7 @@ class Pygmentize {
       else
         $args = sprintf(" -f %s -g -O encoding=%s,style=%s,lineos=1", $formatter, $encoding, $style);
 
-      $proc = proc_open(self::PIGMENTS_BINARY.$args, $dspec, $pipes);
+      $proc = proc_open(self::PIGMENTS_BINARY.escapeshellcmd($args), $dspec, $pipes);
 
       if (is_resource($proc)) {
         // Reads the stdout output.
