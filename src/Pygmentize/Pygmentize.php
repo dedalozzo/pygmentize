@@ -56,7 +56,7 @@ class Pygmentize {
         $args[] = '-O ' . escapeshellarg(sprintf('encoding=%s,style=%s,lineos=1', $encoding, $style));
       }
 
-      $proc = proc_open(self::PIGMENTS_BINARY.implode(' ', $args), $dspec, $pipes);
+      $proc = proc_open(self::PIGMENTS_BINARY.' '.implode(' ', $args), $dspec, $pipes);
 
       if (is_resource($proc)) {
         // Reads the stdout output.
