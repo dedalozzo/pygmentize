@@ -48,10 +48,12 @@ class Pygmentize {
       $args = array(
         '-f ' . escapeshellarg($formatter)
       );
+      
       if (!empty($language)) {
         $args[] = '-l ' . escapeshellarg($language);
         $args[] = '-O ' . escapeshellarg(sprintf('encoding=%s,style=%s,lineos=1,startinline=true', $encoding, $style));
-      } else {
+      }
+      else {
         $args[] = '-g';
         $args[] = '-O ' . escapeshellarg(sprintf('encoding=%s,style=%s,lineos=1', $encoding, $style));
       }
