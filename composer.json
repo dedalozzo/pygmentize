@@ -1,8 +1,8 @@
 {
     "name": "3f/pygmentize",
-    "description": "Pygmentize is a wrapper to 'pygmentize', the command line interface provided by Pygments, a python syntax highlighter.",
+    "description": "Pygmentize is a wrapper to `pygmentize`, the command line interface provided by Pygments, a python syntax highlighter.",
     "keywords": ["pygments", "pygmentize", "syntax highlighter"],
-    "homepage": "http://github.com/dedalozzo/Pygmentize",
+    "homepage": "https://github.com/dedalozzo/pygmentize",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
