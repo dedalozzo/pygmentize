@@ -8,7 +8,6 @@
  */
 
 
-
 //! Global namespace for the Pygmentize class.
 namespace Pygmentize;
 
@@ -25,11 +24,11 @@ class Pygmentize {
 
   /**
    * @brief Formats the provided source code using the specified formatter and style.
-   * @param[in] string $source The source code.
-   * @param[in] string $language The programming language name of the source code.
-   * @param[in] string $encoding The file input and output encodings.
-   * @param[in] string $formatter The output will be created using the provided formatter.
-   * @param[in] string $style The style used by the formatter.
+   * @param string $source The source code.
+   * @param string $language The programming language name of the source code.
+   * @param string $encoding The file input and output encodings.
+   * @param string $formatter The output will be created using the provided formatter.
+   * @param string $style The style used by the formatter.
    * @return string The highlighted source code.
    */
   public static function highlight($source, $language, $encoding = "utf-8", $formatter = "html", $style = "borland") {
